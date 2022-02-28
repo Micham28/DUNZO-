@@ -1,0 +1,87 @@
+.page{
+ 
+  height: 1100px;
+  width: 900px;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+
+  
+}
+
+
+
+.header
+{
+	padding: 5px;
+	text-align: center;
+	line-height: 60%;
+  	background: #006400;
+  	color: white;
+  	font-size: 30px;
+  	margin-top:-10px ;
+  	margin-left:-8px ;
+  	margin-right: -8px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 4px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.features{
+	text-align: center;
+	font-weight: bold;
+}
+
+.container-1
+{
+	margin-left:70px ;
+}
+
+
+.container-2
+{
+	margin-left:70px; 
+}
+
+.container-3
+{
+	margin-left:70px; 
+}
+
+
+.Who{
+	text-align: center;
+
+}
+
+.text{
+	text-align: center;
+}
+
+.footer {
+	background:#006400 ;
+	padding: 10px;
+	color: white;
+	margin-left:-8px ;
+  	margin-right: -8px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
