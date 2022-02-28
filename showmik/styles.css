@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 10px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 2.2 rem;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  z-index: 1400;
+  width: 100%;
+  height: 4.4rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+.nav-link{
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0 1rem;
+  transition: opacity .5s;
+}
+
+.nav-link:hover{
+  opacity: .7;
+}
+
+.nav-link-logo{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("images/logo.jpg") center no-repeat;
+}
+
+.dunzo{
+  background: url("images/hero/dunzo/logo.png");
+  margin-top: 4.4rem;
+}
+
+.title{
+  color: black;
+  text-align: center;
+  padding-top: 5.5rem;
+}
+
+.title-heading{
+  font-size: 5.6rem;
+  line-height: 1.07143;
+  letter-spacing: -.005rem;
+}
+
+.title-sub-heading{
+  font-size: 2.65rem;
+  margin-top: .6rem;
+  letter-spacing: .008rem;
+  font-weight: 400;
+}
+
+.cta{
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.cta-link{
+  color: #66bbff;
+  font-size: 2.1rem;
+  display: inline-block;
+
+}
+
+.project{
+  background:  url("images/");
+}
+.hero {
+  height: 69.2rem;
+  background-size: auto 73.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: .6rem solid #fff;
+  border-bottom: .6rem solid #fff;
+}
+
+.dunzo{
+  border-top: none;
+}
+
+
+
+
+

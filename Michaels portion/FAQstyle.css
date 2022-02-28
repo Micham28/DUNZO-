@@ -1,0 +1,140 @@
+html{
+	box-sizing: border-box;
+	border: thin;
+	border-style: solid;
+}
+*, *:before, *:after {
+  	-webkit-box-sizing: inherit;
+  	box-sizing: inherit;
+  }
+h1 {
+	align-content: center;
+	text-align: center;
+}
+h2 {
+	align-content: center;
+	text-align: center;
+}
+body {
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	min-height: 100vh;
+  	background: linear-gradient(to bottom, #66ff66 0%, #00cc66 93%);
+}
+.titlehead{
+	border: 1px;
+	background: linear-gradient(to bottom, #666699 0%, #66ff66 93%);
+	font-family: Arial, Helvetic, sans-serif;
+	max-height: 150px;
+}
+.Main{
+	font-size: 12px;
+	font-family: Arial, Helvetic, sans-serif;
+	color: #444444;
+	margin: 0 auto;
+  	padding: 64px;
+  	width: 768px;
+	box box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.QA{
+	border: 1px solid black;
+	padding: 3px;
+	background-color: whitesmoke;
+
+	position: relative;
+  	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+
+  	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+ 	-webkit-flex-direction: column;
+  	-ms-flex-direction: column;
+  	flex-direction: column;
+
+  	width: 100%;
+  	padding: 16px 48px 16px 16px;
+  	font-size: 18px;
+  	font-weight: 400;
+  	border-bottom: 1px solid #e5e5e5
+}
+.QA a:hover,
+.QA a:hover::after {
+  	cursor: pointer;
+  	color: #ff5353;
+}
+.QA a:hover::after {
+  	border: 1px solid #ff5353;
+}
+.QA a.active {
+  	color: #ff5353;
+  	border-bottom: 1px solid #ff5353;
+}
+.QA a::after {
+  	font-family: 'Ionicons';
+  	content: '\f218';
+  	position: relative;
+  	float: right;
+  	right: 16px;
+  	font-size: 16px;
+  	color: #7288a2;
+  	padding: 5px;
+  	width: 30px;
+  	height: 30px;
+  	-webkit-border-radius: 50%;
+  	-moz-border-radius: 50%;
+ 	border-radius: 50%;
+  	border: 1px solid #7288a2;
+  	text-align: center;
+}
+.QA a.active::after {
+  	font-family: 'Ionicons';
+  	content: '\f209';
+  	color: #ff5353;
+  	border: 1px solid #ff5353;
+}
+.QA .A {
+  	opacity: 0;
+  	padding: 0 16px;
+  	max-height: 0;
+  	border-bottom: 1px solid #e5e5e5;
+  	overflow: hidden;
+  	clear: both;
+  	-webkit-transition: all 0.2s ease 0.15s;
+  	-o-transition: all 0.2s ease 0.15s;
+  	transition: all 0.2s ease 0.15s;
+}
+.QA .A p {
+  	font-size: 16px;
+  	font-weight: 300;
+}
+.QA .A.active {
+  	opacity: 1;
+  	padding: 16px;
+  	max-height: 100%;
+  	-webkit-transition: all 0.35s ease 0.15s;
+  	-o-transition: all 0.35s ease 0.15s;
+  	transition: all 0.35s ease 0.15s;
+}
+.Question {
+	align-content: center;
+	background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
+	font-family: Arial, Helvetic, sans-serif;
+}
+.Answer {
+	align-content: center;
+	background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
+	font-family: Arial, Helvetic, sans-serif;
+}
+.Submit {
+	align-content: center;
+	border-style: double;
+}
+.CommonFAQ {
+	padding: 3px;
+	
+}
