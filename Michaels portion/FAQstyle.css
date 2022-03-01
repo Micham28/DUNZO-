@@ -6,7 +6,6 @@ html{
 }
 *, *:before, *:after {
   	box-sizing: inherit;
-  	box-sizing: inherit;
   }
 h1 {
 	align-content: center;
@@ -17,17 +16,15 @@ h2 {
 	text-align: center;
 }
 body {
-	display: box;
-  	display: flex;
-  	display: flexbox;
-  	display: flex;
+	margin: 0;
+	padding: 0;
   	min-height: 100%;
   	background: whitesmoke;
   	width: 100%;
+  	background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
 }
 .titlehead{
 	border: 1px;
-	background: linear-gradient(to bottom, #00ff00 0%, #33cc33 93%);
 	font-family: Arial, Helvetic, sans-serif;
 	max-height: 176px;
 	width: 100%;
@@ -38,7 +35,7 @@ body {
 	color: #444444;
 	margin: 0 auto;
   	padding: 10px;
-  	width: 100%;
+  	width: 75%;
 	box box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
@@ -64,6 +61,7 @@ body {
   	font-size: 18px;
   	font-weight: 400;
   	border-bottom: 1px solid #e5e5e5;
+  	background: whitesmoke;
 }
 .QA a:hover,
 .QA a:hover::after {
@@ -78,7 +76,7 @@ body {
   	border-bottom: 1px solid #ff5353;
 }
 .QA a::after {
-  	font-family: 'Ionicons';
+  	font-family: Arial, Helvetic, sans-serif;
   	content: '\f218';
   	position: relative;
   	float: right;
@@ -95,7 +93,7 @@ body {
   	text-align: center;
 }
 .QA a.active::after {
-  	font-family: 'Ionicons';
+  	font-family: Arial, Helvetic, sans-serif;
   	content: '\f209';
   	color: #ff5353;
   	border: 1px solid #ff5353;
@@ -125,12 +123,12 @@ body {
 }
 .Question {
 	align-content: center;
-	background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
+	background: whitesmoke;
 	font-family: Arial, Helvetic, sans-serif;
 }
 .Answer {
 	align-content: center;
-	background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
+	background: whitesmoke;
 	font-family: Arial, Helvetic, sans-serif;
 }
 .Submit {
@@ -145,6 +143,7 @@ body {
   background-color: #333;
   overflow: hidden;
   width: 100%;
+  background: linear-gradient(to bottom, #00ff00 0%, #33cc33 93%);
 }
 .navbar a {
   float: left;
