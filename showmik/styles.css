@@ -14,6 +14,7 @@ body, html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 /*
 fixed = parallax
 scroll =. normal
@@ -22,10 +23,19 @@ scroll =. normal
   background-attachment: fixed;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding-top: 10px;
+}
+
 .pimg1{
-  background-image: url("images/notepad.jpg");
+  background-image: url("images/writing.jpg");
   min-height: 100%;
 }
+
 .pimg2{
   background-image: url("images/plants-2.jpg");
   min-height: 500px;
@@ -57,6 +67,11 @@ scroll =. normal
   color: #666;
 }
 
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
 .ptext{
   position: absolute;
   top: 50%;
@@ -74,6 +89,8 @@ scroll =. normal
   padding: none;
 }
 
+/*NAV BAR*/
+
 a {
   display: block;
   text-decoration: none;
@@ -90,7 +107,7 @@ header {
   top: 0;
   z-index: 1400;
   width: 100%;
-  height: 4.4rem;
+  height: 3.0rem;
   background-color: #98FB98;
   backdrop-filter: blur(2rem);
 }
@@ -100,14 +117,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 -1rem;
+  margin: 0 5rem;
   font-family: "Lato", sans-serif;
 
 }
 .nav-link {
-  font-size: 1.4rem;
-  color: black;
-  padding: 0 1rem;
+  font-size: 1rem;
+  color: #000;
+  padding: 0 5rem;
   transition: opacity .5s;
   font-family: "Lato", sans-serif;
 
@@ -118,13 +135,10 @@ header {
 }
 
 .nav-link-logo{
-  width: 1.6rem;
-  height: 4.4rem;
+  width: 1.2rem;
+  height: 3.0rem;
   background: url("images/application-logo.png") center no-repeat;
 }
-
-
-
 
 
 
