@@ -184,3 +184,17 @@ body {
   height: 3.0rem;
   background: url("images/application-logo.png") center no-repeat;
 }
+
+.footer {
+  background:#006400 ;
+  padding: 10px;
+  color: white;
+  margin-left:-8px ;
+  margin-right: -8px;
+  text-decoration-color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
