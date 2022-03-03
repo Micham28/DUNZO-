@@ -192,9 +192,48 @@ body {
   margin-left:-8px ;
   margin-right: -8px;
   text-decoration-color: white;
+  font-family: Arial, Helvetic, sans-serif;
+  text-align: center;
 }
 
 .link {
   color: white;
   text-decoration: none;
+}
+
+.dropbtn {
+  background:#006400 ;
+  font-size: 16px;
+  border-radius: 12px;
+  color: white;
+
+}
+.dropdown {
+  position: center;
+  display: inline-block;
+  float: right;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background:#006400 ;
+  min-width: 160px;
+  margin-right:20px;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  width: 25%;
+  
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+  background: linear-gradient(to bottom, #00ff00 0%, #33cc33 93%);
 }
