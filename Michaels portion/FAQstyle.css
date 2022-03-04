@@ -17,7 +17,6 @@ h2 {
 }
 
 
-
 body {
 	margin: 0;
 	padding: 0;
@@ -25,6 +24,7 @@ body {
   background: whitesmoke;
   width: 100%;
   background: linear-gradient(to bottom, #ffffff 0%, #ccffcc 93%);
+  font-family: Arial, Helvetic, sans-serif;
 }
 .titlehead{
 	border: 1px;
@@ -155,7 +155,6 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
   list-style: none;
   display: flex;
   align-items: center;
@@ -236,4 +235,78 @@ body {
 .dropdown:hover .dropbtn 
 {
   background: linear-gradient(to bottom, #00ff00 0%, #33cc33 93%);
+}
+
+.social {
+  position: fixed;
+  right: -85px;
+  top: 430px;
+  width: 190px;
+}
+
+.social a {
+  display: block;
+  padding: 16px;
+  height: 53px; 
+  color: #efefef;
+  font-size: 20px;
+  text-align: center;
+}
+ 
+.fa-instagram {
+  background: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  padding: 17.5px;
+  margin-right: 17.5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  padding: 19.5px;
+  margin-right: 19.5px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  padding: 17px;
+  margin-right: 17px;
+}
+
+.fa {
+color:#fff;
+}
+
+.icons-container{
+  top:330px;
+  width:270px;
+  margin:0px;
+  padding:0px;
+  right:-185px;
+  position:fixed;
+}
+
+.icons li{
+  color:black;
+  height:49px;
+  padding:0px;
+  list-style-type:none;
+  margin:0px 0px 1px 0px;
+  background-color:#3cb371; 
+}
+
+.icons li:hover{
+  margin-left:-180px;
+}
+
+.icons li img{
+  float:left;
+  margin: 5px 4px;
+  margin-right:5px;
+}
+
+.icons li p{
+  margin:0px;
+  padding-top:5px;
+  font-size:15px;
+  line-height:13px;
+
 }
